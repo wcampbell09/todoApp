@@ -1,0 +1,19 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "An app that allows you to add, edit and delete todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "serve": "nodemon index.js"
+  },
+  "author": "Wesley Campbell",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "dotenv": "^16.0.3",
+    "@hapi/hapi": "20.2.2",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
